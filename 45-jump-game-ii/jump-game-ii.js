@@ -12,6 +12,7 @@ var jump = function(nums) {
             c=s;
             j++;
         }
+        if(c==nums.length) return j;
         
     }
     return j;
